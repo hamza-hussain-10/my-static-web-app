@@ -54,7 +54,7 @@ export const ShoppingList = () => {
   }
 
   return (
-    <div className="px-5 py-6 font-roboto">
+    <div className="px-2 sm:px-5 py-6 font-roboto">
       <dialog
         ref={itemForm}
         className="outline outline-1 w-96 outline-gray-300 rounded shadow-md"
@@ -67,11 +67,11 @@ export const ShoppingList = () => {
         />
       </dialog>
       <div className="flex justify-between ">
-        <h2 className="border-l-[15px] border-solid border-sky-500 border-b-4 px-2 inline-block text-4xl text-gray-600">
+        <h2 className="border-l-[10px] sm:border-l-[15px] border-solid border-sky-500 border-b-2 sm:border-b-4 px-2 inline-block text-2xl sm:text-4xl text-gray-600">
           Products
         </h2>
         <button
-          className="bg-sky-500 text-white px-4 rounded"
+          className="bg-sky-500 text-white px-4 rounded text-base sm:text-base"
           onClick={() => openModal()}
         >
           Add Item
