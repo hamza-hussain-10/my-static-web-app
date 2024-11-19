@@ -7,7 +7,7 @@ export const Home=()=> {
     return (
       <div className="min-h-screen font-roboto bg-gray-100">
         <Navbar />
-        <div className="flex sm:gap-1 md:gap-4">
+        <div className="flex sm:gap-0 md:gap-4">
           <div className="w-auto ">
             <SideBar />
           </div>

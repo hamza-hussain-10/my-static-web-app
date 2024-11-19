@@ -71,7 +71,7 @@ export const ShoppingList = () => {
           Products
         </h2>
         <button
-          className="bg-sky-500 text-white px-4 rounded text-base sm:text-base"
+          className="bg-sky-500 text-white px-3 sm:px-4 rounded text-sm sm:text-base"
           onClick={() => openModal()}
         >
           Add Item
